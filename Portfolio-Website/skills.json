@@ -1,0 +1,50 @@
+[{
+        "name": "TailwindCSS",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Kotlin",
+        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "Springboot",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAf5JREFUSEu9VttxwjAQXCekjkAJriCiEqAGyEz+iP8yE6gBUgnqwCVA6sjDYRmd5yzLQiYM/PCSvNrduz1luPEruzEeegG+lGb4A5gKGFbAYwZ88sADYPuW20PK4ZMAF6V5rYBJBgwjD7UZ8HEPWA3OQ+rvUcBFachmcwaodYYj89l7brf8Y16azTq3M1nUCUhWAJYpMnWsKSg7/3sACmEZBLwCmJyhoL/0XRi3ACkjgN0/mNVgq9xSJZCAfG4Bzkuz7+tZ4HDjVW6t/K59bAD+V8pju2x1gQjgc2mmUr0NwBR2FXDIgAPf+UD2Ir+LRyEraBNV45oakP3yDew7vDv1WOyhoX26B8XHGpC02XP+Rt1TfQrJb/gWYId/hVRXHzCuJQGtiBROzdAHpEfr3I76AgkY9+tKTWF4ETvXx8ZXpsXQ93AAjFIngKgg2esr4wpyykNoSRsJ0xdQTZSZljKaNF4fNtKiy0unzIQzkhXtg/kTI5Y0UQ8FCACVsavcjruanmuSslT3IAF+gSdulqx1qRNk5aQ8zVPtaWha1HNQxVdj0jMzmTwh+VQByXMa1sTmISiD+ErwO4BDNXh3EdZU4ZitUwfcsiV6xWA5fwG7S8ZV1+S4+p3mnK9JtzZXMMsEpmfTKQlQJ4n7zOo73Us5C/2rYSx/ewFeEuT+nj8+wiosWZL6yQAAAABJRU5ErkJggg=="
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    }
+
+]

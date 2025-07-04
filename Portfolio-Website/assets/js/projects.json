@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Online Bus booking Application",
+    "image": "./assets/images/projects/1000219634.PNG",
+    "Tools Used": "Springboot, MongoDB, Java, HTML, CSS, JavaScript",
+    "description": "This an Android, Web Application which allow users to book tickets and to fetch booking history.Allows SuperAdmin to perform CRUD Operations.",
+    "preview": "https://busbooking-avq3.onrender.com",
+    "github": "https://github.com/johnvesli03/busbooking"
+  },
+  {
+    "title": "Patient Medication Application",
+    "image": "./assets/images/projects/1000219636.png",
+    "Tools Used": "Springboot, MongoDB, Java, HTML, CSS, JavaScript",
+    "description": "A fully functional application, which allows patients to View, Book Appointments, View Prescriptions, View Medicines ",
+    "preview": "https://github.com/johnvesli03/Guvi-MiniProject_02",
+    "github": "https://github.com/johnvesli03/Guvi-MiniProject_02"
+  },
+  {
+    "title": "Employee Management Application",
+    "image": "./assets/images/projects/1000219635.png",
+    "Tools Used": "Springboot, MongoDB, Java, HTML, CSS, JavaScript",
+    "description": "A fully functional application, which allows SuperAdmin to View Employees,Performs CRUD Operations, Update data, salaries",
+    "preview": "https://github.com/johnvesli03/Guvi-MiniProject_01",
+    "github": "https://github.com/johnvesli03/Guvi-MiniProject_01"
+  }
+]

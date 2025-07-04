@@ -1,0 +1,183 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Section Styling */
+
+.experience {
+    background-color: #f7f7f7;
+    padding: 3rem 2rem;
+}
+
+.experience .heading {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.experience .heading i {
+    margin-right: 0.8rem;
+    color: #000;
+}
+
+
+/* Timeline Container */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+
+/* Vertical Line */
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: #020133;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+
+/* Timeline Box */
+
+.container {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+}
+
+
+/* Timeline Icon */
+
+.container::after {
+    content: "\f0b1";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    color: #02094b;
+    border: 4px solid #f68c09;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.6rem;
+    z-index: 1;
+}
+
+
+/* Position Left and Right */
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+
+/* Arrows */
+
+.left::before,
+.right::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+}
+
+.left::before {
+    right: 30px;
+    border-width: 10px 0 10px 10px;
+    border-left-color: #f68c09;
+}
+
+.right::before {
+    left: 30px;
+    border-width: 10px 10px 10px 0;
+    border-right-color: #f68c09;
+}
+
+
+/* Icon Offset */
+
+.left::after {
+    right: -13px;
+}
+
+.right::after {
+    left: -13px;
+}
+
+
+/* Content Box */
+
+.content {
+    background: #f68c09;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+}
+
+.content .tag h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.content .desc h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content .desc p {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+
+/* Responsive Fix */
+
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 31px;
+    }
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .left,
+    .right {
+        left: 0;
+    }
+    .container::after {
+        left: 15px;
+    }
+    .left::before,
+    .right::before {
+        left: 45px;
+        right: auto;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f68c09 transparent transparent;
+    }
+}
